@@ -92,8 +92,8 @@ int n_ponto_turistico2;
     printf("Código : %s\n", codigo_carta1);
     printf("Nome da Cidade : %s\n", nome_cidade1);
     printf("População : %d\n", populacao1);
-    printf("Área (em km²): : %f km²\n" , area1);
-    printf("PIB : %f bilhões de reais\n", PIB1);
+    printf("Área (em km²): : %.2f km²\n" , area1);
+    printf("PIB : %.2f bilhões de reais\n", PIB1);
     printf("Número de Pontos Turísticos : %d\n\n\n", n_ponto_turistico1);
 
 
@@ -103,8 +103,8 @@ int n_ponto_turistico2;
     printf("Código : %s\n", codigo_carta2);
     printf("Nome da Cidade : %s\n", nome_cidade2);
     printf("População : %d\n", populacao2);
-    printf("Área (em km²): : %f km²\n", area2);
-    printf("PIB : %f bilhões de reais\n", PIB2);
+    printf("Área (em km²): : %.2f km²\n", area2);
+    printf("PIB : %.2f bilhões de reais\n", PIB2);
     printf("Número de Pontos Turísticos : %d\n", n_ponto_turistico2);
     
 return 0;
