@@ -113,10 +113,12 @@ float PIB_per_capita2;
     printf("População : %d\n", populacao1);
     printf("Área (em km²): : %.2f km²\n" , area1);
     printf("PIB : %f bilhões de reais\n", PIB1);
-    printf("Número de Pontos Turísticos : %d\n\n\n", n_ponto_turistico1);
+     printf("Número de Pontos Turísticos : %d\n", n_ponto_turistico1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
+    printf("PIB per Capita: %.2f reais\n\n\n", PIB_per_capita1);
 
 
-    /****************Output Carta 1****************/
+    /****************Output Carta 2****************/
     printf("Carta2:\n");
     printf("Estado : %c\n", estado2);
     printf("Código : %s\n", codigo_carta2);
