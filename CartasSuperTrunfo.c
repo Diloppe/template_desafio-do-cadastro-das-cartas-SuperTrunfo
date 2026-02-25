@@ -111,11 +111,9 @@ float PIB_per_capita2;
     printf("Código : %s\n", codigo_carta1);
     printf("Nome da Cidade : %s\n", nome_cidade1);
     printf("População : %d\n", populacao1);
-    printf("Área (em km²): : %f km²\n" , area1);
+    printf("Área (em km²): : %.2f km²\n" , area1);
     printf("PIB : %f bilhões de reais\n", PIB1);
-    printf("Número de Pontos Turísticos : %d\n", n_ponto_turistico1);
-    printf("Densidade Populacional: %2.f hab/km²\n", densidade_populacional1);
-    printf("PIB per Capita: %.2f reais\n\n\n", PIB_per_capita1);
+    printf("Número de Pontos Turísticos : %d\n\n\n", n_ponto_turistico1);
 
 
     /****************Output Carta 1****************/
@@ -124,10 +122,10 @@ float PIB_per_capita2;
     printf("Código : %s\n", codigo_carta2);
     printf("Nome da Cidade : %s\n", nome_cidade2);
     printf("População : %d\n", populacao2);
-    printf("Área (em km²): : %f km²\n", area2);
-    printf("PIB : %f bilhões de reais\n", PIB2);
+    printf("Área (em km²): : %.2f km²\n", area2);
+    printf("PIB : %.2f bilhões de reais\n", PIB2);
     printf("Número de Pontos Turísticos : %d\n", n_ponto_turistico2);
-    printf("Densidade Populacional: %2.f hab/km²\n", densidade_populacional2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
     printf("PIB per Capita: %.2f reais\n", PIB_per_capita2);
     
 return 0;
