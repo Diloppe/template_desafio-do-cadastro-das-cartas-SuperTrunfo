@@ -14,6 +14,8 @@ int populacao1;
 float area1;
 float PIB1;
 int n_ponto_turistico1;
+float densidade_populacional1;
+float PIB_per_capita1;
 
 char estado2;
 char codigo_carta2[3];
@@ -22,6 +24,9 @@ int populacao2;
 float area2;
 float PIB2;
 int n_ponto_turistico2;
+float densidade_populacional2;
+float PIB_per_capita2;
+
 
   // Área para entrada de dados
    /****************Input Carta 1****************/
@@ -54,6 +59,13 @@ int n_ponto_turistico2;
     printf ("Digite a quantidade de pontos turísticos da cidade: \n"); 
     scanf("%d", &n_ponto_turistico1);
 
+    /****************Calculo Carta 1****************/
+    /*Calcular a Densidade Populacional: Divida a população da cidade pela sua área. O resultado será a densidade populacional, que representa o número de habitantes por quilômetro quadrado. Armazene esse valor em uma variável do tipo float.*/
+    densidade_populacional1=(float)populacao1/area1;
+
+    /*Calcular o PIB per Capita: Divida o PIB da cidade pela sua população. O resultado será o PIB per capita, que indica a riqueza média por pessoa na cidade. Armazene esse valor em uma variável do tipo float.*/
+    PIB_per_capita1=(float)PIB1/populacao1;
+
         /****************Input Carta 2****************/
     /*Estado: Uma letra de 'A' a 'H' (representando um dos oito estados). Tipo: char*/
     printf ("\nCarta 2 \n");
@@ -84,6 +96,13 @@ int n_ponto_turistico2;
     printf ("Digite a quantidade de pontos turísticos da cidade: \n"); 
     scanf("%d", &n_ponto_turistico2);
 
+    /****************Calculo Carta 2****************/
+    /*Calcular a Densidade Populacional: Divida a população da cidade pela sua área. O resultado será a densidade populacional, que representa o número de habitantes por quilômetro quadrado. Armazene esse valor em uma variável do tipo float.*/
+    densidade_populacional2=(float)populacao2/area2;
+
+    /*Calcular o PIB per Capita: Divida o PIB da cidade pela sua população. O resultado será o PIB per capita, que indica a riqueza média por pessoa na cidade. Armazene esse valor em uma variável do tipo float.*/
+    PIB_per_capita2=(float)PIB2/populacao2;
+
 
   // Área para exibição dos dados da cidade
    /****************Output Carta 1****************/
@@ -94,7 +113,9 @@ int n_ponto_turistico2;
     printf("População : %d\n", populacao1);
     printf("Área (em km²): : %f km²\n" , area1);
     printf("PIB : %f bilhões de reais\n", PIB1);
-    printf("Número de Pontos Turísticos : %d\n\n\n", n_ponto_turistico1);
+    printf("Número de Pontos Turísticos : %d\n", n_ponto_turistico1);
+    printf("Densidade Populacional: %2.f hab/km²\n", densidade_populacional1);
+    printf("PIB per Capita: %.2f reais\n\n\n", PIB_per_capita1);
 
 
     /****************Output Carta 1****************/
@@ -106,6 +127,8 @@ int n_ponto_turistico2;
     printf("Área (em km²): : %f km²\n", area2);
     printf("PIB : %f bilhões de reais\n", PIB2);
     printf("Número de Pontos Turísticos : %d\n", n_ponto_turistico2);
+    printf("Densidade Populacional: %2.f hab/km²\n", densidade_populacional2);
+    printf("PIB per Capita: %.2f reais\n", PIB_per_capita2);
     
 return 0;
 } 
