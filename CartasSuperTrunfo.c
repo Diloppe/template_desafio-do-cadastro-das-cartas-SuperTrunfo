@@ -166,7 +166,7 @@ int resultadoSuperpoder2;
     printf("Área (em km²): : %.2f km², a carta 2 venceu %d\n", area2, resultadoArea2);
     printf("PIB : %.2f bilhões de reais, a carta 2 venceu %d\n", PIB2, resultadoPIB2);
     printf("Número de Pontos Turísticos : %d, a carta 2 venceu %d\n", n_ponto_turistico2, resultado_n_pontos_turistico2);
-    printf("Densidade Populacional: %2.f hab/km², a carta 2 vnceu %d\n", densidade_populacional2, resultado_densidade2);
+    printf("Densidade Populacional: %.2f hab/km², a carta 2 vnceu %d\n", densidade_populacional2, resultado_densidade2);
     printf("PIB per Capita: %.2f reais, a carta 2 venceu %d\n", PIB_per_capita2, resultadoPIB_per_capita2);
     printf("Super Poder: %d, a carta 2 venceu %d\n\n\n", Superpoder2, resultadoSuperpoder2);
 
